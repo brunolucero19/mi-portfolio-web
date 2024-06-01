@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Web</title>
+    <title>My Web Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ec6d284f8e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <p>B.</p>
         <nav>
-            <a href="">Inicio</a>
-            <a href="">Sobre Mí</a>
-            <a href="">Habilidades</a>
-            <a href="">Proyectos</a>
-            <a href="">Experiencia</a>
-            <a href="">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#about">Sobre Mí</a>
+            <a href="#myskills">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="inicio">
             <div>
                 <p>Hola</p>
                 <h1>Soy Bruno</h1>
@@ -30,7 +31,7 @@
                 <img src="http://via.placeholder.com/200" alt="">
             </div>
         </section>
-        <section class="aboutme">
+        <section class="aboutme" id="about">
             <h2>Sobre Mí</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad minus nam debitis architecto cumque quis commodi veniam placeat natus aliquam ab officia, libero qui, officiis sunt sint quisquam! Vero.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque impedit rem minus enim natus ullam. Magni, eligendi. Facilis, nulla corporis molestiae sint optio minima magnam aliquid quis. Eaque, at sit!</p>
@@ -39,52 +40,68 @@
                 <a href="">Descargar CV</a>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="myskills">
             <h2>Mis Habilidades</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium veritatis molestiae inventore maxime ullam mollitia consequatur rem neque, totam accusamus aut a rerum non tempora vel alias quasi architecto?</p>
             <div class="container">
                 <div class="container-item">
-                    <!--Icono -->
-                    <h3>CSS</h3>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
                 </div>
                 <div class="container-item">
-                    <!--Icono -->
-                    <h3>HTML</h3>
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
                 </div>
                 <div class="container-item">
-                    <!--Icono -->
+                    <i class="fa-brands fa-git-alt"></i>
                     <h3>Git</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
                 </div>
                 <div class="container-item">
-                    <!--Icono -->
-                    <h3>PostgreSQL</h3>
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Bases de Datos</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="proyectos">
             <h2>Últimos Proyectos</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
             <div>
                 <p>Todos</p>
-                <p>UI Design</p>+
+                <p>UI Design</p>
                 <p>Páginas Web</p>
             </div>
             <div class="gallery">
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="http://via.placeholder.com/200" alt="">
+                </div>
             </div>
         </section>
-        <section class="experience">
+        <section class="experience" id="experiencia">
             <h2>Experiencia Laboral</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus facere excepturi amet culpa atque autem!.</p>
             <div class="container-experience">
@@ -110,27 +127,26 @@
         </section>
     </main>
     <footer>
-        <section class="contact">
+        <section class="contact" id="contacto">
             <h3>¿Tienes algún proyecto en mente? Contactame</h3>
             <div class="container-contact">
-                <div class="container-contact-item">
-                    <!--Icono con enlace a mi Gmail-->
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGLrPmFcvZLMvcCBzPmVxRwTLKvpzWHkTbFKvSZjtjjrJqXqKdnfpkNshkCsWPZfGRhptdK" target="_blank" class="container-contact-item">
+                    <i class="fa-solid fa-envelope"></i>
                     <p>Gmail</p>
-                </div>
-                <div class="container-contact-item">
-                    <!--Icono con enlace a mi GitHub-->
+                </a>
+                <a href="https://github.com/brunolucero19" target="_blank" class="container-contact-item">
+                    <i class="fa-brands fa-github"></i>
                     <p>GitHub</p>
-                </div>
+                </a>
             </div>
         </section>
         <section class="return">
-            <a href="">Inicio</a>
-            <a href="">Sobre Mí</a>
-            <a href="">Habilidades</a>
-            <a href="">Proyectos</a>
-            <a href="">Experiencia</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#about">Sobre Mí</a>
+            <a href="#myskills">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#experiencia">Experiencia</a>
         </section>
-        <p>Copyright by Bruno Lucero</p>
     </footer>
 </body>
 </html>
