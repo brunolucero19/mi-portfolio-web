@@ -459,9 +459,10 @@ h2{
     font-weight: 500;
     padding: 10px;
     border-radius: 7px;
-    transition: all 0.3s;
+    transition: all 1s;
 }
 
 .return-item:hover{
     background-color: rgb(253, 201, 100);
+    transform: scale(1.2);
 }
