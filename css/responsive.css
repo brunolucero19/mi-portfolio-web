@@ -1,8 +1,4 @@
-@media (max-width:320px){
-    
-}
-
-@media (max-width:480px){
+@media (max-width:768px){
     .nav-item{
         display: none;
     }
@@ -12,37 +8,77 @@
         color: rgb(253, 201, 100);
     }
     .hero{
-        height: 40vh;
-        padding: 0 30px;
-        margin-bottom: 40px;
+        height: 80vh;
+        margin-bottom: 30px;
         margin-top: 10px;
-        flex-direction: column-reverse;
-        gap: 10px;
+    }
+    .aboutme{
+        padding: 20px 60px;
+    }
+    .skills{
+        padding: 30px 50px;
+    }
+    .projects{
+        padding: 30px 70px;
+    }
+    .experience{
+        padding: 30px 50px;
+        margin-bottom: 10px;
+    }
+    .contact{
+        padding: 30px 50px;
+    }
+    .return{
+        padding: 30px 50px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
+}
+
+@media (max-width:660px){
+    .hero{
+        justify-content: center;
+        align-items: center;
+    }
     .hero-content{
         text-align: center;
+    }
+    .hero-image{
+        display: none;
+    }
+    .hero-content h2{
+        max-width: 100%;
+        padding: 0;
+    }
+    .container-experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:480px){
+    .hero{
+        height: 50vh;
+        padding: 0 30px;
+        margin-bottom: 40px;
     }
     .hero-content p{
         font-size: 14px;
     }
     .hero-content h1{
-        font-size: 28px;
+        font-size: 32px;
     }
     .hero-content h2{
         font-size: 16px;
-        max-width: 100%;
-        padding: 0;
     }
-    .hero-image{
-        height: 100%;
-        margin-bottom: 10px;
-    }
-    .hero-image img{
-        max-width: 100%;
-        height: 100%;
-    }
-
     .aboutme{
         padding: 20px 50px;
     }
@@ -92,32 +128,47 @@
         padding: 30px 50px;
         margin-bottom: 10px;
     }
+}
 
-    .container-experience{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+@media (max-width:320px){
+    .aboutme p{
+        font-size: 12px;
     }
-
-    .contact{
-        padding: 30px 50px;
+    .skills{
+        padding: 30px 20px;
     }
-
-    .return{
-        padding: 30px 50px;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-evenly;
+    .container-item{
+        padding: 20px;
+    }
+    .container-item p{
+        font-size: 12px;
+    }
+    .projects{
+        padding: 30px 20px;
+    }
+    .categories button{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .experience{
+        padding: 30px 20px;
     }
 }
 
-@media (max-width:768px){
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1024px){
     
