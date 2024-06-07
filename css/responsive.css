@@ -13,27 +13,30 @@
     }
     .hero{
         height: 40vh;
-        padding: 30px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        padding: 0 30px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        flex-direction: column-reverse;
+        gap: 10px;
     }
 
     .hero-content{
-        height: 80%;
+        text-align: center;
     }
     .hero-content p{
         font-size: 14px;
     }
     .hero-content h1{
-        font-size: 32px;
+        font-size: 28px;
     }
     .hero-content h2{
         font-size: 16px;
-        max-width: 80%;
+        max-width: 100%;
         padding: 0;
     }
     .hero-image{
-        height: 80%;
+        height: 100%;
+        margin-bottom: 10px;
     }
     .hero-image img{
         max-width: 100%;
