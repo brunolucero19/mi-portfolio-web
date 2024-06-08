@@ -1,3 +1,55 @@
+@media (min-width:1441px) and (max-width:1920px){
+
+    .aboutme p{
+        width: 70%;
+    }
+    .container-item{
+        width: 35%;
+    }
+    .gallery{
+        height: 80vh;
+        width: 70%;
+    }
+    .container-experience{
+        width: 70%;
+    }
+}
+
+@media (min-width:1281px) and (max-width:1440px){
+    .aboutme p{
+        width: 80%;
+    }
+    .container-item{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width:1024px){
+    header{
+        padding: 10px 40px;
+    }
+    .navbar{
+        gap: 10px;
+    }
+    .hero{
+        height: auto;
+    }
+    .aboutme{
+        padding: 40px 100px;
+    }
+    .skills{
+        padding: 30px 120px;
+    }
+    .projects{
+        padding: 30px 120px;
+    }
+    .experience{
+        padding: 30px 120px;
+        margin-bottom: 10px;
+    }
+}
+
 @media (max-width:768px){
     .nav-item{
         display: none;
@@ -8,12 +60,11 @@
         color: rgb(253, 201, 100);
     }
     .hero{
-        height: 80vh;
         margin-bottom: 30px;
         margin-top: 10px;
     }
     .aboutme{
-        padding: 20px 60px;
+        padding: 40px 60px;
     }
     .skills{
         padding: 30px 50px;
@@ -23,20 +74,14 @@
     }
     .experience{
         padding: 30px 50px;
-        margin-bottom: 10px;
     }
     .contact{
         padding: 30px 50px;
     }
     .return{
         padding: 30px 50px;
-        text-align: center;
-        display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-evenly;
     }
-
 }
 
 @media (max-width:660px){
@@ -82,18 +127,12 @@
     .aboutme{
         padding: 20px 50px;
     }
-
-    .skills{
-        padding: 30px 50px;
-    }
-
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
     .container-item{
         width: 75%;
     }
@@ -170,18 +209,5 @@
 
 
 
-@media (max-width:1024px){
-    
-}
 
-@media (max-width:1280px){
-    
-}
 
-@media (max-width:1440px){
-    
-}
-
-@media (max-width:1920px){
-
-}
